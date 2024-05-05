@@ -9,7 +9,7 @@ Universal:CreateButton("Anti Logger",function() loadstring(game:HttpGet("https:/
 Universal:CreateButton("Aim Lock (Doesnt load rn)",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/13B8B/NEXUS/main/loadstring'))() end)
 Universal:CreateButton("Save Instance (Scripts dont save yet)", function() saveinstance(game, {FileName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name, IgnoreArchivable = true}) end)
 
-if placeId==2788229376 then
+if placeId==2788229376 or placeId==7213786345 then
     local game1 = gui:CreateCategory("Da Hood")
     game1:CreateButton("Pluto", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))() end)
     game1:CreateButton("Swagmode", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))() end)
