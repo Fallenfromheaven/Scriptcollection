@@ -58,7 +58,7 @@ if placeId==2788229376 or placeId==7213786345 then
             ['LowGraphics'] = true, --[true | false] Turns graphics down so your stand doesnt lag too much
             ['AntiStomp'] = true, --[true | false] The Stand Will Cannot Be Stomped Or Grabbed
             ['CustomNAME'] = 'Master', --Custom Name Text Default Is [Master] Example Of it 'Im Here, Master'
-            ['Hidescreen'] = true, --[true | false] If [true] You WIll See White Blank Screen But The Performance Is Gonna Be Good]
+            ['Hidescreen'] = false, --[true | false] If [true] You WIll See White Blank Screen But The Performance Is Gonna Be Good]
             ['ChatCmds'] = true, --[true | false] Chatted When You Use Some Command
             ['MaskMode'] = 'Breathing', --[Surgeon | Paintball | Skull | Pumpkin | Hockey | Ninja | Riot | Breathing] The Stand Will Buy The Mask You Selected
             ['AutoMask'] = true, --[true | false] Auto Buy Mask When The St    and Respawn
