@@ -88,7 +88,7 @@ if placeId==13864661000 or placeId==13864667823 then
 end
 if placeId==16732694052 then
     local game4 = gui:CreateCategory("Fisch")
-    game4:CreateButton("Aether Hub", function() loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua"))) end)
+    game4:CreateButton("Aether Hub", function() loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua"))() end)
 end
 if placeId==8737899170 then
     local game5 = gui:CreateCategory("Pet Sim 99")
