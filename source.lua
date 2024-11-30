@@ -98,6 +98,7 @@ if placeId==8737899170 then
             --Example_Setting = Example_Value
         }
         loadstring(game:HttpGet("https://hugegames.io/ps99"))() end)
+end
 if placeId==18901165922 then
     local game6 = gui:CreateCategory("Pets Go!")
     game5:CreateButton("Banana Hub", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/diepedyt/bui/refs/heads/main/BananaHubLoader.lua"))() end)
