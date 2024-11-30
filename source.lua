@@ -4,10 +4,14 @@ local gui = loadstring(game:HttpGet("https://gitlab.com/0x45.xyz/droplib/-/raw/m
 local Universal = gui:CreateCategory("Universal")
 
 Universal:CreateButton("Infinit Yield",function() loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))() end)
-Universal:CreateButton("Chat Bypass(Please also load Anti Logger!)",function() loadstring(game:HttpGet('https://pastes.io/raw/umyxfdthh1'))() end)
-Universal:CreateButton("Anti Logger",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLogger.lua", true))(); end)
-Universal:CreateButton("Aim Lock (Doesnt load rn)",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/13B8B/NEXUS/main/loadstring'))() end)
-Universal:CreateButton("Save Instance (Scripts dont save yet)", function() saveinstance(game, {FileName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name, IgnoreArchivable = true}) end)
+Universal:CreateButton("Save Instance (Scripts dont save yet)", function() 
+local Params = {
+RepoURL = "https://raw.githubusercontent.com/luau/SynSaveInstance/main/",
+SSI = "saveinstance",
+}
+local synsaveinstance = loadstring(game:HttpGet(Params.RepoURL .. Params.SSI .. ".luau", true), Params.SSI)()
+local Options = {} -- Documentation here https://luau.github.io/UniversalSynSaveInstance/api/SynSaveInstance
+synsaveinstance(Options) end)
 
 if placeId==2788229376 or placeId==7213786345 then
     local game1 = gui:CreateCategory("Da Hood")
@@ -82,9 +86,9 @@ if placeId==13864661000 or placeId==13864667823 then
     local game3 = gui:CreateCategory("Break in 2")
     game3:CreateButton("Breaking Blitz", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/RScriptz/RobloxScripts/main/BreakIn2.lua"))() end)
 end
-if placeId==16510724413 then
-    local game4 = gui:CreateCategory("Pet Catchers")
-    game4:CreateButton("Gato Hub", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Catto-YFCN/GatoHub/main/PetCatchers"))() end)
+if placeId==16732694052 then
+    local game4 = gui:CreateCategory("Fisch")
+    game4:CreateButton("Aether Hub", function() loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua"))())() end)
 end
 if placeId==8737899170 then
     local game5 = gui:CreateCategory("Pet Sim 99")
