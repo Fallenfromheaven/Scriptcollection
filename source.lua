@@ -95,6 +95,7 @@ if placeId==16732694052 then
     if UID==7638241013 then
         game4:CreateButton("Personal Spectrum Hub", function() script_key="gossezZDwfJiluXaeFiDmKnfzPolYDTW";
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Spectrum-Trash/Loader/main/Loader.lua"))() end)
+    end
 end
 if placeId==8737899170 then
     local game5 = gui:CreateCategory("Pet Sim 99")
