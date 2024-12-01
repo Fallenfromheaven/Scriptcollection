@@ -107,3 +107,7 @@ if placeId==11276071411 then
     local game7 = gui:CreateCategory("NPC OR DIE!")
     game7:CreateButton("OP Script", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/main/BeNpcOrDie"))("t.me/arceusxscripts") end)
 end
+if placeId==142823291 then
+    local game8 = gui:CreateCategory("Murder Mystery 2")
+    game8:CreateButton("Vertex", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/s-o-a-b/nexus/main/loadstring"))() end)
+end
