@@ -111,3 +111,7 @@ if placeId==142823291 then
     local game8 = gui:CreateCategory("Murder Mystery 2")
     game8:CreateButton("Vertex", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/s-o-a-b/nexus/main/loadstring"))() end)
 end
+if placeId==6403373529 then
+    local game9 = gui:CreateCategory("Slab Battles")
+    game9:CreateButton("Forge Hub", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua"))() end)
+end
