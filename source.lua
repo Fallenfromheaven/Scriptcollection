@@ -4,7 +4,10 @@ local UID     = player.UserId
 local gui = loadstring(game:HttpGet("https://gitlab.com/0x45.xyz/droplib/-/raw/master/drop-minified.lua"))():Init(config,game.CoreGui)
 
 local Universal = gui:CreateCategory("Universal")
-
+if UID==7638241013 then
+    Universal:CreateButton("Zeke Hub", function() script_key="NQsRcBXEQcjlzKnHblaTomNdtmafHNfa"
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d416a9fb566c94cba596550ef09d256b.lua"))() end)
+end 
 Universal:CreateButton("Infinit Yield",function() loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))() end)
 Universal:CreateButton("Save Instance (Scripts dont save yet)", function() 
 local Params = {
