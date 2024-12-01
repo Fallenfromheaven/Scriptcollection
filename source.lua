@@ -103,3 +103,7 @@ if placeId==18901165922 then
     local game6 = gui:CreateCategory("Pets Go!")
     game6:CreateButton("Banana Hub", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/diepedyt/bui/refs/heads/main/BananaHubLoader.lua"))() end)
 end
+if placeId==11276071411 then
+    local game7 = gui:CreateCategory("NPC OR DIE!")
+    game7:CreateButton("OP Script", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/main/BeNpcOrDie"))("t.me/arceusxscripts") end)
+end
