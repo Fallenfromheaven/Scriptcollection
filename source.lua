@@ -7,7 +7,8 @@ local Universal = gui:CreateCategory("Universal")
 if UID==7638241013 or UID==7643960984 then
     Universal:CreateButton("Zeke Hub", function() script_key="NQsRcBXEQcjlzKnHblaTomNdtmafHNfa"
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d416a9fb566c94cba596550ef09d256b.lua"))() end)
-end 
+end
+Universal:CreateButton("Chat Bypass (nutzen auf eigene gefahr!(BAN BAR!))",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/products/main/BetterBypasser/loader.lua",true))() end) 
 Universal:CreateButton("Infinit Yield",function() loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))() end)
 Universal:CreateButton("Save Instance (Scripts dont save yet)", function() 
 local Params = {
