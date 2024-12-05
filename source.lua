@@ -20,7 +20,7 @@ local Options = {} -- Documentation here https://luau.github.io/UniversalSynSave
 synsaveinstance(Options) end)
 
 if placeId==2788229376 or placeId==7213786345 then
-    local game1 = gui:CreateCategory("Da Hood")
+    local game1 = gui:CreateCategory("Da Hood NICHT BENUTZEN SCRIPTS SIND OUTDATED!")
     game1:CreateButton("Pluto", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))() end)
     game1:CreateButton("Swagmode", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))() end)
     game1:CreateButton("Detazy", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/I4MMO/Detazy/main/Main', true))() end)
@@ -125,4 +125,8 @@ end
 if placeId==6403373529 then
     local game9 = gui:CreateCategory("Slab Battles")
     game9:CreateButton("Forge Hub", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua"))() end)
+end
+if placeId==13772394625 then
+    local game10 = gui:CreateCategory("Blade Ball")
+    game10:CreateButton("Plutonium AP (Benötigt gutes Movement)", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))() end)
 end
