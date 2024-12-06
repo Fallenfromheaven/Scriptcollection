@@ -126,7 +126,7 @@ if placeId==6403373529 then
     local game9 = gui:CreateCategory("Slab Battles")
     game9:CreateButton("Forge Hub", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua"))() end)
 end
-if placeId==13772394625 then
+if placeId==13772394625 or placeId==14732610803 or placeId==15131065025 or placeId==15234596844 then
     local game10 = gui:CreateCategory("Blade Ball")
     game10:CreateButton("Plutonium AP (Benötigt gutes Movement)", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))() end)
 end
