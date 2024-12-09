@@ -15,7 +15,8 @@ if UID==Fallencheater_006 or UID==Fallencheater_007 or UID==Fallencheater_008 th
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d416a9fb566c94cba596550ef09d256b.lua"))() end)
 end 
 Universal:CreateButton("Infinit Yield",function() loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))() end)
-Universal:CreateButton("Chat Bypass (nutzen auf eigene gefahr!(BAN BAR!))",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/products/main/BetterBypasser/loader.lua",true))() end)
+Universal:CreateButton("Plutonium Hub (supported viele Games)", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/refs/heads/main/Versions%202/V3.7.3.txt", true))()
+Universal:CreateButton("Chat Bypass (nutzen auf eigene gefahr!(BAN BAR!))", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/products/main/BetterBypasser/loader.lua",true))() end)
 Universal:CreateButton("Save Instance (Scripts dont save yet)", function() 
 local Params = {
 RepoURL = "https://raw.githubusercontent.com/luau/SynSaveInstance/main/",
@@ -134,5 +135,5 @@ if placeId==6403373529 then
 end
 if placeId==13772394625 or placeId==14732610803 or placeId==15131065025 or placeId==15234596844 or placeId==16331600459 then
     local game10 = gui:CreateCategory("Blade Ball")
-    game10:CreateButton("Plutonium AP (Benötigt gutes Movement)", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))() end)
+    game10:CreateButton("Plutonium AP (Benötigt gutes Movement)", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/refs/heads/main/Versions%202/V3.7.3.txt", true))() end)
 end
