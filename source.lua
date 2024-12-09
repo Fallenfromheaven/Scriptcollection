@@ -136,7 +136,7 @@ if placeId==13772394625 or placeId==14732610803 or placeId==15131065025 or place
     local game10 = gui:CreateCategory("Blade Ball")
     game10:CreateButton("Plutonium AP (Benötigt gutes Movement)", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/refs/heads/main/Versions%202/V3.7.3.txt", true))() end)
 end
-if placeId==4282985734 or placeId==11979315221 or placeId==9532476417 or placeId==16323991061 then
+if placeId==4282985734 or placeId==11979315221 or placeId==9532476417 or placeId==16323991061 or placeId==18480127448 or placeId==18480122340 then
     local game11 = gui:CreateCategory("Combat Warriors")
-    game11:CreateButton("Script", function() loadstring(game:HttpGet("https://pastefy.app/50B4Z9UK/raw"))() end)
+    game11:CreateButton("Stratos Hub", function() loadstring(game:HttpGet("https://pastefy.app/50B4Z9UK/raw"))() end)
 end
