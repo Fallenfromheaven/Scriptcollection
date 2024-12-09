@@ -1,12 +1,11 @@
 local placeId = game.PlaceId
-if not placeId == 292439477 then
-    local player  = game.Players.LocalPlayer
-    local UID     = player.UserId
-    local Fallencheater_006 = 7638241013
-    local Fallencheater_007 = 7643960984
-    local Fallencheater_008 = 7655662062
-    local Squidhosses       = 4384512189
-end
+local player  = game.Players.LocalPlayer
+local UID     = player.UserId
+local Fallencheater_006 = 7638241013
+local Fallencheater_007 = 7643960984
+local Fallencheater_008 = 7655662062
+local Squidhosses       = 4384512189
+
 local gui = loadstring(game:HttpGet("https://gitlab.com/0x45.xyz/droplib/-/raw/master/drop-minified.lua"))():Init(config,game.CoreGui)
 
 local Universal = gui:CreateCategory("Universal")
