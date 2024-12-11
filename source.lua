@@ -1,5 +1,6 @@
 local placeId = game.PlaceId
-local player  = game.Players.LocalPlayer
+local Players = game:GetService("Players")
+local player  = Players.LocalPlayer
 local UID     = player.UserId
 local Fallencheater_006 = 7638241013
 local Fallencheater_007 = 7643960984
