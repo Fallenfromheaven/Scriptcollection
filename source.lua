@@ -141,3 +141,7 @@ if placeId==4282985734 or placeId==11979315221 or placeId==9532476417 or placeId
     local game11 = gui:CreateCategory("Combat Warriors")
     game11:CreateButton("Stratos Hub", function() loadstring(game:HttpGet("https://pastefy.app/50B4Z9UK/raw"))() end)
 end
+if placeId==286090429 then
+    local game12 = gui:CreateCategory("Arsenal")
+    game12:CreateButton("Projectware", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/FishyPlayzThis/Projecthub-Arsenal/refs/heads/main/obf_QoCPBEH6oZ3Bsrk9saw8oegnmuMZtW0z764FNNfvFwGDACIespPcUZd9NU7P6uq6.lua"))() end)
+end
