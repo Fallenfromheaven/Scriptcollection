@@ -1,3 +1,4 @@
+print("Fallen_from_heaven was here")
 local placeId = game.PlaceId
 local Players = game:GetService("Players")
 local player  = Players.LocalPlayer
