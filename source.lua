@@ -105,8 +105,9 @@ if placeId==16732694052 then
     game4:CreateButton("Aether Hub", function() loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua"))() end)
     game4:CreateButton("Spectrum Hub", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/xZPUHigh/Spectrum-Cloud/main/Loader.lua'))() end)
     if UID==Fallencheater_006 or UID==Fallencheater_007 or UID==Fallencheater_008 then
-        game4:CreateButton("Personal Spectrum Hub", function() script_key="gossezZDwfJiluXaeFiDmKnfzPolYDTW";
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Spectrum-Trash/Loader/main/Loader.lua"))() end)
+        game10:CreateButton("Flow (Personal)", function() 
+            script_key="sYpQSjImhYYNzIWKDEruPFVRUAlixnXc";
+            loadstring(game:HttpGet("https://api.flow-hub.xyz/loader"))() end)
     end
 end
 if placeId==8737899170 then
@@ -137,6 +138,11 @@ end
 if placeId==13772394625 or placeId==14732610803 or placeId==15131065025 or placeId==15234596844 or placeId==16331600459 then
     local game10 = gui:CreateCategory("Blade Ball")
     game10:CreateButton("Plutonium AP (Benötigt gutes Movement)", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/refs/heads/main/Versions%202/V3.7.3.txt", true))() end)
+    if UID==Fallencheater_006 or UID==Fallencheater_007 or UID==Fallencheater_008 then
+        game10:CreateButton("Flow (Personal)", function() 
+            script_key="sYpQSjImhYYNzIWKDEruPFVRUAlixnXc";
+            loadstring(game:HttpGet("https://api.flow-hub.xyz/loader"))() end)
+    end
 end
 if placeId==4282985734 or placeId==11979315221 or placeId==9532476417 or placeId==16323991061 or placeId==18480127448 or placeId==18480122340 then
     local game11 = gui:CreateCategory("Combat Warriors")
