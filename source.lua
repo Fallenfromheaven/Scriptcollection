@@ -135,7 +135,7 @@ if placeId==6403373529 then
     local game9 = gui:CreateCategory("Slab Battles")
     game9:CreateButton("Forge Hub", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua"))() end)
 end
-if placeId==13772394625 or placeId==14732610803 or placeId==15131065025 or placeId==15234596844 or placeId==16331600459 then
+if placeId==13772394625 or placeId==14732610803 or placeId==15131065025 or placeId==15234596844 or placeId==16331600459 or placeId==15144787112 then
     local game10 = gui:CreateCategory("Blade Ball")
     game10:CreateButton("Plutonium AP (Benötigt gutes Movement)", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/refs/heads/main/Versions%202/V3.7.3.txt", true))() end)
     if UID==Fallencheater_006 or UID==Fallencheater_007 or UID==Fallencheater_008 then
