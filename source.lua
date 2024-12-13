@@ -7,11 +7,12 @@ local Fallencheater_006 = 7638241013
 local Fallencheater_007 = 7643960984
 local Fallencheater_008 = 7655662062
 local Squidhosses       = 4384512189
+local FreshGovernment   = 6035836892
 
 local gui = loadstring(game:HttpGet("https://gitlab.com/0x45.xyz/droplib/-/raw/master/drop-minified.lua"))():Init(config,game.CoreGui)
 
 local Universal = gui:CreateCategory("Universal")
-if UID==Fallencheater_006 or UID==Fallencheater_007 or UID==Fallencheater_008 then
+if UID==Fallencheater_006 or UID==Fallencheater_007 or UID==Fallencheater_008 or UID==FreshGovernment then
     Universal:CreateButton("Zeke Hub", function() script_key="NQsRcBXEQcjlzKnHblaTomNdtmafHNfa"
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d416a9fb566c94cba596550ef09d256b.lua"))() end)
 end 
@@ -43,7 +44,7 @@ if placeId==16732694052 then
     local game4 = gui:CreateCategory("Fisch")
     game4:CreateButton("Aether Hub", function() loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua"))() end)
     game4:CreateButton("Spectrum Hub", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/xZPUHigh/Spectrum-Cloud/main/Loader.lua'))() end)
-    if UID==Fallencheater_006 or UID==Fallencheater_007 or UID==Fallencheater_008 then
+    if UID==Fallencheater_006 or UID==Fallencheater_007 or UID==Fallencheater_008 or UID=FreshGovernment then
         game10:CreateButton("Flow (Personal)", function() 
             script_key="sYpQSjImhYYNzIWKDEruPFVRUAlixnXc";
             loadstring(game:HttpGet("https://api.flow-hub.xyz/loader"))() end)
