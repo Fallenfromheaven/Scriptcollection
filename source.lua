@@ -45,7 +45,7 @@ if placeId==16732694052 then
     game4:CreateButton("Aether Hub", function() loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua"))() end)
     game4:CreateButton("Spectrum Hub", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/xZPUHigh/Spectrum-Cloud/main/Loader.lua'))() end)
     if UID==Fallencheater_006 or UID==Fallencheater_007 or UID==Fallencheater_008 or UID==FreshGovernment then
-        game10:CreateButton("Flow (Personal)", function() 
+        game4:CreateButton("Flow (Personal)", function() 
             script_key="sYpQSjImhYYNzIWKDEruPFVRUAlixnXc";
             loadstring(game:HttpGet("https://api.flow-hub.xyz/loader"))() end)
     end
@@ -90,5 +90,5 @@ if placeId==4282985734 or placeId==11979315221 or placeId==9532476417 or placeId
 end
 if placeId==621129760 then
     local game12 = gui:CreateCategory("Kat")
-    game12:CreateButton("Kat Script"), function() loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Knife-Ability-Test/main/Gui'))() end)
+    game12:CreateButton("Kat Script", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Knife-Ability-Test/main/Gui'))() end)
 end
