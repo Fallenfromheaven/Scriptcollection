@@ -88,7 +88,7 @@ if placeId==4282985734 or placeId==11979315221 or placeId==9532476417 or placeId
     local game11 = gui:CreateCategory("Combat Warriors")
     game11:CreateButton("Stratos Hub", function() loadstring(game:HttpGet("https://pastefy.app/50B4Z9UK/raw"))() end)
 end
-if placeId==621129760 THEN 
+if placeId==621129760 then
     local game12 = gui:CreateCategory("Kat")
     game12:CreateButton("Kat Script"), function() loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Knife-Ability-Test/main/Gui'))() end)
 end
